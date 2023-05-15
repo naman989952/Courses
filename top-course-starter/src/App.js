@@ -11,6 +11,10 @@ const App = () => {
   const [loading, setLoading] = useState(true);
   const [category, setCategory]=useState(filterData[0].title)
   console.log('object')
+  console.log('object')
+  console.log('object')
+  console.log('object')
+
   async function fetchData() {
     setLoading(true);
     try {
